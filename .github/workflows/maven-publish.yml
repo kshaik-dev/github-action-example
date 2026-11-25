@@ -4,8 +4,9 @@
 name: Project cicd flow
 
 on:
-  release:
-    types: master
+  push:
+    branches:
+      - master
 
 jobs:
   build:
