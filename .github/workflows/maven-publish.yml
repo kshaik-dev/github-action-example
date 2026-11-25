@@ -5,7 +5,7 @@ name: Project cicd flow
 
 on:
   release:
-    types: [created]
+    types: master
 
 jobs:
   build:
